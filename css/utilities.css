@@ -1,0 +1,9 @@
+/* Color Variables */
+
+:root {
+  --color--darkest: #0e1014;
+  --color--dark-light: #1c1d25;
+  --color-grey: #c5c6c7;
+  --color-bright: #f05643;
+  --color-bright-dark: #45a29e;
+}
