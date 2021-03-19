@@ -46,3 +46,18 @@
 .btn-primary:hover {
   box-shadow: inset 200px 0 0 0 var(--color-bright-dark);
 }
+
+.btn-outline {
+  border: 1px solid var(--color-grey);
+  padding: 15px 20px;
+  margin-top: 15px;
+  color: var(--color-grey);
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.btn-outline:hover {
+  box-shadow: inset 200px 0 0 0 var(--color-grey);
+  color: var(--color-bright);
+}

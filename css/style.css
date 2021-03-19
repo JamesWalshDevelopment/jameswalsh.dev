@@ -22,7 +22,7 @@ body {
 .showcase {
   color: var(--color-grey);
   background-color: var(--color--dark-light);
-  height: 100vh;
+  height: 80vh;
 }
 
 .showcase-text h1 {
@@ -34,8 +34,42 @@ body {
   font-weight: 300;
 }
 
+/* PROJECTS AREA */
+
 .my-work .project img {
   display: block;
   width: 100%;
+  height: auto;
   text-align: center;
+  filter: brightness(75%);
+}
+
+.project {
+  position: relative;
+}
+
+/* Overlay For Project Images */
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-bright);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.project:hover .project-overlay {
+  width: 100%;
+}
+
+.project-text {
+  height: 100%;
+  color: var(--color-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
