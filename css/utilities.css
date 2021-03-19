@@ -44,7 +44,7 @@
 }
 
 .btn-primary:hover {
-  box-shadow: inset 200px 0 0 0 var(--color-bright-dark);
+  box-shadow: inset 160px 0 0 0 var(--color-bright-dark);
 }
 
 .btn-outline {

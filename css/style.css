@@ -79,6 +79,13 @@ body {
   justify-content: center;
 }
 
+/* LAB-WORK AREA */
+
+.lab-work .lab-item {
+  background-color: var(--color-bright-dark);
+  height: 350px;
+}
+
 /* Footer Area */
 
 .footer {
