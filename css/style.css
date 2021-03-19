@@ -33,3 +33,9 @@ body {
   font-style: italic;
   font-weight: 300;
 }
+
+.my-work .project img {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
