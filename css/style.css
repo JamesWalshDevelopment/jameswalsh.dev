@@ -34,6 +34,11 @@ body {
   font-weight: 300;
 }
 
+/* ONLY SHOW ON TABLET SIZE AND LARGER */
+.showcase .social-media {
+  display: none;
+}
+
 /* PROJECTS AREA */
 
 .my-work .project img {
