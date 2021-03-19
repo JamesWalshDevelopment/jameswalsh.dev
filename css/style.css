@@ -18,3 +18,18 @@ body {
   line-height: 1.4;
   font-family: "Spartan", sans-serif;
 }
+
+.showcase {
+  color: var(--color-grey);
+  background-color: var(--color--dark-light);
+  height: 100vh;
+}
+
+.showcase-text h1 {
+  font-size: 4rem;
+}
+
+.showcase-text h3 {
+  font-style: italic;
+  font-weight: 300;
+}
