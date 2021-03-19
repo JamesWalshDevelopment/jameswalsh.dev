@@ -29,3 +29,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.btn-primary {
+  background-color: var(--color-bright);
+  padding: 15px 20px;
+  font-weight: 900;
+  color: var(--color-grey);
+  outline: none;
+  margin-top: 15px;
+  border: none;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  box-shadow: inset 200px 0 0 0 var(--color-bright-dark);
+}
