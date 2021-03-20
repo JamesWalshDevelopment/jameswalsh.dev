@@ -171,6 +171,7 @@ body {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
   animation-name: modal-open;
   animation-duration: 1s;
+  height: 100%;
 }
 
 .modal .content-left,
@@ -178,6 +179,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  height: 100%;
 }
 
 .modal .content-left {
@@ -294,5 +296,24 @@ body {
   }
   .footer img {
     width: 10%;
+  }
+
+  .modal-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal .content-left,
+  .modal .content-right {
+    width: 50%;
+  }
+
+  .modal .content-left {
+    justify-content: center;
+  }
+
+  .close-modal-btn {
+    top: -80px;
   }
 }
