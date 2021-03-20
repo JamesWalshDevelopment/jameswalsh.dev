@@ -148,3 +148,97 @@ body {
   color: var(--color-grey);
   font-size: 0.8rem;
 }
+
+/* Modal */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 5% auto;
+  width: 100%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal .content-left,
+.modal .content-right {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.modal .content-left {
+  height: 100%;
+}
+
+.modal .content-left p {
+  margin-top: 10px;
+}
+
+.modal .content-left .social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.modal .content-left .social-media i {
+  font-size: 2rem;
+  color: var(--color-blue-primary);
+}
+
+.modal .content-left .social-media a:hover {
+  color: var(--color-orange-primary);
+}
+
+.modal .content-right {
+  background-color: var(--color-dark);
+}
+
+.modal .content-right form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.modal .content-right form label,
+.modal .content-right h3 {
+  color: var(--color-grey);
+  margin: 10px 0;
+}
+
+.modal .content-right form input[type="text"],
+.modal .content-right form input[type="email"],
+.modal .content-right form textarea {
+  padding: 10px 0;
+  color: var(--color-grey);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.close-modal-btn {
+  position: relative;
+  top: 0;
+  color: var(--color-blue-primary);
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.close-modal-btn:hover {
+  color: var(--color-orange-primary);
+}
