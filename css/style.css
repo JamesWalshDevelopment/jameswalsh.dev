@@ -21,7 +21,7 @@ body {
 
 .showcase {
   color: var(--color-grey);
-  background-color: var(--color--dark-light);
+  background-color: var(--color-dark);
   height: 80vh;
 }
 
@@ -59,7 +59,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--color-bright);
+  background-color: var(--color-orange-primary);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -117,7 +117,7 @@ body {
 
 .footer {
   padding: 40px 0;
-  background-color: var(--color--dark-light);
+  background-color: var(--color-dark);
 }
 
 .footer img {
@@ -135,8 +135,8 @@ body {
 }
 
 .footer nav ul li a:hover {
-  color: var(--color-bright);
-  border-bottom: 2px solid var(--color-bright-dark);
+  color: var--color-orange-primary);
+  border-bottom: 2px solid var(--color-blue-primary);
 }
 
 .footer p {
