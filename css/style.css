@@ -256,9 +256,43 @@ body {
   body {
     background-color: red;
   }
+
+  .showcase-text h1 {
+    font-size: 6rem;
+  }
+
+  .showcase-text h3 {
+    font-size: 1.75rem;
+  }
+
+  .showcase .social-media {
+  }
+
+  .my-work .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lab-work .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* DESKTOP SIZE MEDIA QUERY */
 
 @media (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+
+  .lab-work .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer .flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer img {
+    width: 10%;
+  }
 }
