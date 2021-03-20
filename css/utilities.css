@@ -1,11 +1,10 @@
 /* Color Variables */
 
 :root {
-  --color--darkest: #0e1014;
-  --color--dark-light: #1c1d25;
+  --color-dark: #1c1d25;
   --color-grey: #c5c6c7;
-  --color-bright: #f05643;
-  --color-bright-dark: #45a29e;
+  --color-orange-primary: #f05643;
+  --color-blue-primary: #45a29e;
 }
 
 .container {
@@ -31,7 +30,7 @@
 }
 
 .btn-primary {
-  background-color: var(--color-bright);
+  background-color: var(--color-orange-primary);
   padding: 15px 20px;
   font-weight: 900;
   color: var(--color-grey);
@@ -44,7 +43,7 @@
 }
 
 .btn-primary:hover {
-  box-shadow: inset 160px 0 0 0 var(--color-bright-dark);
+  box-shadow: inset 160px 0 0 0 var(--color-blue-primary);
 }
 
 .btn-outline {
@@ -59,5 +58,5 @@
 
 .btn-outline:hover {
   box-shadow: inset 200px 0 0 0 var(--color-grey);
-  color: var(--color-bright);
+  color: var(--color-orange-primary);
 }
