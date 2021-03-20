@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.section-spacing {
+  padding: 70px 0;
+}
+
 .btn-primary {
   background-color: var(--color-orange-primary);
   padding: 15px 20px;
