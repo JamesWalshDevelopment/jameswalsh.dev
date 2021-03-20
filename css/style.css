@@ -169,6 +169,8 @@ body {
   margin: 5% auto;
   width: 100%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  animation-name: modal-open;
+  animation-duration: 1s;
 }
 
 .modal .content-left,
@@ -180,6 +182,8 @@ body {
 
 .modal .content-left {
   height: 100%;
+  animation-name: slide-from-left;
+  animation-duration: 1s;
 }
 
 .modal .content-left p {
@@ -203,6 +207,8 @@ body {
 
 .modal .content-right {
   background-color: var(--color-dark);
+  animation-name: slide-from-top;
+  animation-duration: 1s;
 }
 
 .modal .content-right form {
