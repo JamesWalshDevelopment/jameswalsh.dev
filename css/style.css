@@ -249,3 +249,16 @@ body {
 .close-modal-btn:hover {
   color: var(--color-orange-primary);
 }
+
+/* TABLET SIZE MEDIA QUERY */
+
+@media (min-width: 769px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* DESKTOP SIZE MEDIA QUERY */
+
+@media (min-width: 1200px) {
+}
