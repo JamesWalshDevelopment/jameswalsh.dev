@@ -23,6 +23,63 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+header {
+  padding: 15px 0;
+  background-color: var(--color-dark);
+}
+.header-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .brand {
+  width: 20%;
+}
+
+header .menu-btn {
+  font-size: 1.75rem;
+  color: var(--color-grey);
+  cursor: pointer;
+}
+
+header .menu-btn:hover {
+  color: var(--color-blue-primary);
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--color-orange-primary);
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav a {
+  color: var(--color-dark);
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 2rem;
+  margin-left: 50px;
+}
+
 .showcase {
   color: var(--color-grey);
   background-color: var(--color-dark);
@@ -91,17 +148,22 @@ body {
   position: relative;
 }
 
+.lab-work .lab-item img {
+  height: 350px;
+  /* width: 100%; */
+}
+
 .lab-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--color-orange-primary);
+  background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: 0.5s;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .lab-item:hover .lab-overlay {
