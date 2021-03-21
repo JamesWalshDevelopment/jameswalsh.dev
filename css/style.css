@@ -276,6 +276,7 @@ body {
 
   .lab-work .grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
   }
 }
 
@@ -315,5 +316,9 @@ body {
 
   .close-modal-btn {
     top: -80px;
+  }
+
+  .lab-text .grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
