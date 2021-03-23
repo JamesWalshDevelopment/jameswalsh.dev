@@ -56,7 +56,7 @@ header .menu-btn:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: var(--color-orange-primary);
+  background-color: var(--color-dark);
   overflow: hidden;
   transition: 0.5s;
   display: flex;
@@ -67,17 +67,27 @@ header .menu-btn:hover {
 
 .sidenav a {
   color: var(--color-dark);
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 2rem;
   font-weight: 900;
+  color: var(--color-blue-primary);
+}
+
+.sidenav a:hover {
+  border-bottom: 2px solid var(--color-orange-primary);
 }
 
 .close-btn {
+  color: var(--color-orange-primary);
   position: absolute;
   top: 20px;
   right: 25px;
   font-size: 2rem;
   margin-left: 50px;
+}
+
+.close-btn:hover {
+  color: var(--color-blue-primary);
 }
 
 .showcase {
@@ -86,11 +96,20 @@ header .menu-btn:hover {
   height: 80vh;
 }
 
+.showcase-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .showcase-text h1 {
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 .showcase-text h3 {
+  font-size: 2rem;
   font-style: italic;
   font-weight: 300;
 }
@@ -101,6 +120,10 @@ header .menu-btn:hover {
 }
 
 /* PROJECTS AREA */
+
+.my-work {
+  background-color: var(--color-grey);
+}
 
 .my-work .project img {
   display: block;
@@ -318,7 +341,11 @@ header .menu-btn:hover {
 
 @media (min-width: 769px) {
   body {
-    background-color: red;
+    /* background-color: red; */
+  }
+
+  header .brand {
+    width: 15%;
   }
 
   .showcase-text h1 {
@@ -346,7 +373,21 @@ header .menu-btn:hover {
 
 @media (min-width: 1200px) {
   body {
-    background-color: blue;
+    /* background-color: blue; */
+  }
+
+  .showcase .flex {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .showcase-text {
+    align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  header .brand {
+    width: 8%;
   }
 
   .lab-work .grid {
