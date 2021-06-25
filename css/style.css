@@ -419,6 +419,22 @@ header .menu-btn:hover {
   filter: brightness(80%);
 }
 
+.p-2 {
+  background-image: url(../img/crypto-showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+.p-3 {
+  background-image: url(../img/host-now.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
 .project-showcase-content {
   text-align: center;
   color: #fff;
@@ -508,6 +524,11 @@ header .menu-btn:hover {
 
 #next-project .next-content ul li i {
   font-size: 2.5rem;
+  color: var(--color-grey);
+}
+
+.next-project-link {
+  color: var(--color-grey);
 }
 
 /* TABLET SIZE MEDIA QUERY */
