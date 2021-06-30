@@ -613,11 +613,17 @@ TABLET SIZE MEDIA QUERY
   }
 }
 
-/* DESKTOP SIZE MEDIA QUERY */
+/********************************
+DESKTOP SIZE MEDIA QUERY 
+********************************/
 
 @media (min-width: 1200px) {
-  body {
-    /* background-color: blue; */
+  .container {
+    width: 80%;
+  }
+
+  header .brand {
+    width: 8%;
   }
 
   .showcase .flex {
@@ -630,8 +636,44 @@ TABLET SIZE MEDIA QUERY
     align-items: flex-start;
   }
 
-  header .brand {
-    width: 8%;
+  .showcase-text h1 {
+    font-size: 8rem;
+  }
+
+  .showcase-text h3 {
+    font-size: 4.2rem;
+  }
+
+  .work-intro-text .heading-1 {
+    font-size: 5rem;
+  }
+
+  .work-intro-text p {
+    font-size: 1.5rem;
+  }
+
+  .showcase-text h1 {
+    font-size: 8rem;
+  }
+
+  .showcase-text h3 {
+    font-size: 4.2rem;
+  }
+
+  .work-intro-text .heading-1 {
+    font-size: 3.5rem;
+  }
+
+  .work-intro-text p {
+    font-size: 1.5rem;
+  }
+
+  .lab-intro-text .heading-1 {
+    font-size: 3.5rem;
+  }
+
+  .lab-intro-text p {
+    font-size: 1.5rem;
   }
 
   .lab-work .grid {
@@ -667,5 +709,22 @@ TABLET SIZE MEDIA QUERY
 
   .lab-text .grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Project pages */
+  #project-showcase {
+    height: 90vh;
+  }
+
+  .tech-used-intro .heading-1 {
+    font-size: 3.5rem;
+  }
+
+  .texh-used-intro p {
+    font-size: 1.5rem;
+  }
+
+  #tech-used .grid div i {
+    font-size: 10rem;
   }
 }
